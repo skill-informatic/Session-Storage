@@ -7,13 +7,13 @@ body {
 }
 
 /* Tema oscuro */
-.dark-mode {
+.dark {
   background-color: #333;
   color: #fff;
 }
 
 /* Tema claro */
-.light-mode {
+.light {
   background-color: #fff;
   color: #000;
 }
