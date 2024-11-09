@@ -5,7 +5,10 @@ body {
   padding: 0;
   transition: background-color 0.3s, color 0.3s;
 }
-
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
 /* Tema oscuro */
 .dark {
   background-color: #333;
