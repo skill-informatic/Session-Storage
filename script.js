@@ -6,7 +6,6 @@ const estadoElemento = document.querySelector("#estado"); // Elemento para mostr
 // El código dentro de `DOMContentLoaded` se ejecuta cuando el contenido del DOM está completamente cargado
 document.addEventListener("DOMContentLoaded", () => {
   function cambiarTema(tema) {
-    console.log(tema);
     // Cambiar la clase del body para aplicar el tema correspondiente
     document.body.className = tema;
     // Guardar el tema en sessionStorage para que persista durante la sesión actual del navegador
